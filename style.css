@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 12vh;
+    background-color: white;
+    box-shadow: 1px 0px 10px #b1b1b1;
+}
+.container{
+    height: 88vh;
+}
+.brand h1{
+    color:rgb(98, 43, 226);
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.button{
+    margin-left: 70px;
+}
+.pages a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+.content{
+    background-color: rgb(98, 43, 226);
+    border-radius: 25px;
+    padding: 5px;
+    color: white;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+body{
+    background-color: rgb(240, 238, 238);
+}
+.heading{
+    padding:30px
+}
+.heading h1{
+    color: rgb(98, 43, 226);
+    text-align: center;
+}
+.headingContent{
+    text-align: center;
+    padding-left: 40px;
+    padding-right:40px;
+    color: rgb(105, 105, 105);
+}
+.cards{
+    display:flex;
+    flex-direction: row;
+}
+.card{
+    background-color: white;
+    margin: 40px;
+    padding: 50px;
+    box-shadow: 1px 0px 10px #b1b1b1;
+}
+.name{
+    font-size: 20px;
+}
+.about{
+    color:rgb(180, 179, 179)
+}
+.aboutAuthor{
+    padding-top: 17px;
+    color: rgb(105, 105, 105);
+}
+
